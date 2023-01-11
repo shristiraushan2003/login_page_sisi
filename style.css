@@ -1,0 +1,103 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   background: url(img/bcg1.jpg);
+   background-position: center;
+   background-size: cover;
+   height: max-content;
+   font-family: sans-serif;
+}
+
+.login{
+    width: 288px;
+    height: 380px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border-radius: 20px
+}
+
+h1{
+    margin: 2px;
+    padding: 10px;
+    text-align: left;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.login input[type="text"], input[type="password"]{
+    border-bottom: 3px;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    height: 20px;
+    font-size: 15px;
+    border: none;
+}
+
+.login input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 25px;
+    color: #fff;
+    background: red;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.login input[type="submit"]:hover{
+    cursor: grab;
+    background: blueviolet;
+    color: brown;
+    font-weight: bold;
+}
+
+.login a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: lightcoral;
+}
+
+.login a:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+.screen{
+    position: fixed;
+    background: #000;
+    margin: 0px;
+    padding: 10px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    gap: 90px;
+    font-family: serif;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.screen:hover{
+    cursor: pointer;
+    color: crimson;
+    font-weight: bold;
+    
+}
